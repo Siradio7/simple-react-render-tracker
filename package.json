@@ -1,7 +1,7 @@
 {
-  "name": "react-render-tracker",
+  "name": "simple-react-render-tracker",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -48,10 +48,10 @@
     "profiler",
     "optimization"
   ],
-  "author": "Your Name",
+  "author": "Mamadou Siradiou Diallo",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/react-render-tracker"
+    "url": "https://github.com/Siradio7/react-render-tracker"
   }
 }

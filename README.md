@@ -1,4 +1,4 @@
-# React Render Tracker
+# Simple React Render Tracker
 
 A powerful and lightweight tool for tracking and debugging React component renders. Monitor render counts, visualize render frequency with heatmaps, and get notifications for excessive renders.
 
@@ -14,11 +14,11 @@ A powerful and lightweight tool for tracking and debugging React component rende
 ## Installation
 
 ```bash
-npm install react-render-tracker
+npm install simple-react-render-tracker
 # or
-yarn add react-render-tracker
+yarn add simple-react-render-tracker
 # or
-pnpm add react-render-tracker
+pnpm add simple-react-render-tracker
 ```
 
 ## Quick Start
@@ -26,7 +26,7 @@ pnpm add react-render-tracker
 1. Wrap your app with the TrackerProvider:
 
 ```jsx
-import { TrackerProvider } from 'react-render-tracker';
+import { TrackerProvider } from 'simple-react-render-tracker';
 
 function App() {
   return (
@@ -41,7 +41,7 @@ function App() {
 
 ```jsx
 // Using the hook
-import { useRenderTracker } from 'react-render-tracker';
+import { useRenderTracker } from 'simple-react-render-tracker';
 
 function MyComponent(props) {
   useRenderTracker('MyComponent', props);
@@ -49,7 +49,7 @@ function MyComponent(props) {
 }
 
 // Using the HOC
-import { withRenderTracker } from 'react-render-tracker';
+import { withRenderTracker } from 'simple-react-render-tracker';
 
 function MyComponent(props) {
   return <div>{props.content}</div>;
@@ -61,7 +61,7 @@ export default withRenderTracker(MyComponent);
 3. Add the heatmap visualization (optional):
 
 ```jsx
-import { RenderHeatmap } from 'react-render-tracker';
+import { RenderHeatmap } from 'simple-react-render-tracker';
 
 function App() {
   return (
